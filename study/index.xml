@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Studies on jyh.im</title>
+    <link>https://sleephu.github.io/study/</link>
+    <description>Recent content in Studies on jyh.im</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Sep 2019 20:47:03 -0800</lastBuildDate>
+    
+	<atom:link href="https://sleephu.github.io/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LeetCode SQL</title>
+      <link>https://sleephu.github.io/study/leetcode_sql/</link>
+      <pubDate>Fri, 06 Sep 2019 20:47:03 -0800</pubDate>
+      
+      <guid>https://sleephu.github.io/study/leetcode_sql/</guid>
+      <description>LC 511.Game Play Analysis I http://206.81.6.248:12306/leetcode/game-play-analysis-i/description
+Table: Activity
+&amp;lt;/| Column Name | Type | | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | | player_id | int | | device_id | int | | event_date | int | | games_played | int |
+  (player_id, event_date) is the primary key of this table. This table shows the activity of players of some game. Each row is a record of a player who logged in and played a number of games (possibly 0) before logging out on some day using some device.</description>
+    </item>
+    
+  </channel>
+</rss>
