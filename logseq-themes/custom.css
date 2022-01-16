@@ -294,8 +294,8 @@ a.tooltip-priority:first-of-type::before {
 
 .dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), 
 html[data-theme=dark] :is(:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag) {
-    color: var(--ls-primary-background-color); 
-    background: var(--ls-link-text-color); 
+    color: var(--ls-link-text-color); 
+    background: var(--ls-primary-background-color); 
     border-radius: 0.5rem 0rem;
     font-size: 0.75rem;
     font-weight: bold;
