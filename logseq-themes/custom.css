@@ -234,7 +234,7 @@ html[data-theme=light] {
 
 a[priority],
 a.priority {
-  font-size: 0px;
+  font-size: 0px !important;
   /* Hide text */
 }
 
