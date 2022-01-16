@@ -16,8 +16,8 @@
 
 .pinned {
     margin-top: 5px;
- 		margin-left: -80%;
- 		margin-bottom: -0.5% ;
+	margin-left: -80%;
+	margin-bottom: -0.5% ;
     position: relative;
   }
   .pinned > :last-child {
@@ -292,14 +292,13 @@ a.tooltip-priority:first-of-type::before {
 /* === Tags ===  */
 
 
-/*.dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), */
+.dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), 
 html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag) {
     background-color: var(--ls-primary-background-color);
     border-top: var(--ls-primary-background-color);
     border-right: var(--ls-primary-background-color);
     border-bottom: var(--ls-primary-background-color);
     border-left: var(--ls-primary-background-color);
-    /*color: var(--cl-raven);*/
   
     color: var(--ls-primary-background-color); 
     background: var(--ls-link-text-color); 
@@ -313,7 +312,7 @@ html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar, .tippy-
     white-space: nowrap;
 }
 
-/*.dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover), */
+.dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover), 
 html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover) {
   opacity: 1;
   background-color: var(--ls-link-text-hover-color);
@@ -321,9 +320,9 @@ html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar, .tippy-
 }
 
 
-/*.white-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), */
+.white-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), 
 html[data-theme=light] *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag)  {
- color: var(--ls-primary-background-color); 
+  color: var(--ls-primary-background-color); 
   background: var(--ls-link-text-color); 
   border-radius: 0.5rem 0rem;
   font-size: 0.75rem;
@@ -336,7 +335,7 @@ html[data-theme=light] *:is(*:is(#main-content-container, #right-sidebar, .tippy
 
 }
 
-/*.white-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover), */
+.white-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover), 
 html[data-theme=light] *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover) {
   opacity: 1;
   background-color: var(--ls-link-text-hover-color);
