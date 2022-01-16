@@ -305,7 +305,7 @@ html[data-theme=dark] :is(:is(#main-content-container, #right-sidebar, .tippy-to
     transition: 0.3s;
     white-space: nowrap;
     
-    background-color: var(--ls-link-text-color); 
+    background-color: var(--ls-primary-background-color); 
     border-top: var(--ls-primary-background-color);
     border-right: var(--ls-primary-background-color);
     border-bottom: var(--ls-primary-background-color);
