@@ -246,21 +246,21 @@ a.priority {
 
 a[priority=A]::before,
 a.priority[href="#/page/A" i]:before {
-  content: "A";
+  content: "A" !important;
   background: var(--ct-warning-color); 
   color: #000000;
 }
 
 a[priority=B]::before,
 a.priority[href="#/page/B" i]:before {
-  content: "B";
+  content: "B" !important;
   background: var(--ct-highlight-color);
   color: #000000;
 }
 
 a[priority=C]::before,
 a.priority[href="#/page/C" i]:before {
-  content: "C";
+  content: "C" !important;
   background: var(--ct-success-color);
   color: #fff;
 }
