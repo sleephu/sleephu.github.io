@@ -167,7 +167,8 @@ a.external-link:hover:after {
 , html[data-theme=dark] *:is(*:is(#main-content-container) 
 .editor-inner textarea) {
     /*background-color: #045591;*/
-    color: var(--ls-block-bullet-active-color);
+    /*color: var(--ls-block-bullet-active-color);*/
+    color: var(--ct-highlight-color);
 }
 
 
@@ -196,22 +197,22 @@ html[data-theme=dark] {
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
 
-  --color-level-1: #313942;
+  /*--color-level-1: #313942;
   --color-level-2: #38434c;
   --color-level-3: #404b55;
   --color-level-4: #525f6b;
   --color-level-5: #606e7a;
-  --color-level-6: #697885;
+  --color-level-6: #697885;*/
 
-  --ls-primary-background-color: #272c35;
-  --ls-secondary-background-color: var(--color-level-1);
-  --ls-tertiary-background-color: var(--color-level-2);
-  --ls-quaternary-background-color: var(--color-level-3);
-  --ls-border-color: var(--ls-tertiary-background-color);
-  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: rgb(235, 235, 235);
-  --ls-secondary-text-color: rgb(200, 200, 200);
-  --ct-bold-color: #fff;
+  /*--ls-primary-background-color: #272c35;*/
+  /*--ls-secondary-background-color: var(--color-level-1);*/
+  /*--ls-tertiary-background-color: var(--color-level-2);*/
+  /*--ls-quaternary-background-color: var(--color-level-3);*/
+  /*--ls-border-color: var(--ls-tertiary-background-color);*/
+  /*--ls-table-tr-even-background-color: var(--ls-secondary-background-color);*/
+  /*--ls-primary-text-color: rgb(235, 235, 235);*/
+  /*--ls-secondary-text-color: rgb(200, 200, 200);*/
+  /*--ct-bold-color: #fff;*/
 
 }
 
@@ -294,8 +295,8 @@ a.tooltip-priority:first-of-type::before {
 
 .dark-theme *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag), 
 html[data-theme=dark] :is(:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag) {
-    color: var(--ls-link-text-color);
-    background: var(--ls-primary-background-color); 
+    color: var(--ls-primary-background-color);
+    background: var(--ls-link-text-color);
     border-radius: 0.5rem 0rem;
     font-size: 0.75rem;
     font-weight: bold;
@@ -318,11 +319,11 @@ html[data-theme=dark] :is(:is(#main-content-container, #right-sidebar, .tippy-to
 .dark-theme :is(:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover), 
 html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) a.tag:hover) {
   opacity: 1;
-  /*background-color: var(--ls-link-text-hover-color);*/
- background-color: var(--ls-link-text-color); 
+  background-color: var(--ls-link-text-hover-color);
+ /*background-color: var(--ls-link-text-color); */
   border-radius: 0rem 0.5rem;
-  color: var(--ls-primary-background-color); 
-  background: var(--ls-link-text-color);
+  /*color: var(--ls-primary-background-color); */
+  /*background: var(--ls-link-text-color);*/
 }
 
 
