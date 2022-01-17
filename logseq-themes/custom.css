@@ -159,7 +159,7 @@ a.external-link:hover:after {
     /*background-color: var(--cl-chicago,#045591);*/
     background-color: var(--ls-primary-text-color);
     box-shadow: 0 0 0 0px var(--ls-block-bullet-active-color);
-     background: var(--ls-link-text-color);
+    background: var(--ls-link-text-color);
      color: var(--ct-highlight-color);
 }
 
@@ -185,7 +185,8 @@ a.external-link:hover:after {
 .editor-inner textarea) {
     /*background-color: #045591;*/
     /*color: #045591;*/
-    color: var(--ls-block-bullet-active-color);
+    /*color: var(--ls-block-bullet-active-color);*/
+    color: var(--ct-highlight-color);
 }
 
 
@@ -306,7 +307,7 @@ html[data-theme=dark] :is(:is(#main-content-container, #right-sidebar, .tippy-to
     transition: 0.3s;
     white-space: nowrap;
     
-    background-color: var(--ls-primary-background-color); 
+    background-color: var(--ls-link-text-color);
     border-top: var(--ls-primary-background-color);
     border-right: var(--ls-primary-background-color);
     border-bottom: var(--ls-primary-background-color);
