@@ -160,7 +160,7 @@ a.external-link:hover:after {
     background-color: var(--ls-primary-text-color);
     box-shadow: 0 0 0 0px var(--ls-block-bullet-active-color);
      background: var(--ls-link-text-color);
-
+     color: var(--ct-highlight-color);
 }
 
 .dark-theme *:is(*:is(#main-content-container) .editor-inner textarea)
