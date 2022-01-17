@@ -199,7 +199,7 @@ a.external-link:hover:after {
 html[data-theme=dark] {
 
   --ct-warning-color: #ff7262;
-  --ct-success-color: #0dcf82;
+  --ct-success-color: #2a9d8f;
   --ct-highlight-color: #ffc600;
 
   /*--color-level-1: #313942;
@@ -231,7 +231,7 @@ html[data-theme=dark] {
 html[data-theme=light] {
 
   --ct-warning-color: #ff7262;
-  --ct-success-color: #0dcf82;
+  --ct-success-color: #2a9d8f;
   --ct-highlight-color: #ffc600;
 
 }
